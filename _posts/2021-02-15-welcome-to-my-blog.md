@@ -35,3 +35,12 @@ However, sometimes it isn't necessary to re-invent the wheel.
 Just before starting this blog, I found a [technical blog](https://fanpu.io/) maintained by my senior which is created through [Jekyll](https://github.com/jekyll/jekyll). After reading up about Jekyll and asking him about it, I realized that Jekyll would provide everything that I should need, and the only "drawback" would be having to learn how to use Jekyll, which ended up being not difficult at all.
 
 Ultimately, I decided to use Jekyll, based on my original main reasons for starting this blog. I want to focus more on writing content - and using Jekyll would allow me to spend more time on writing content. Anyway, in a career in the field of computer science, one's ability to re-use code is as important as their ability to write new code - but that would be another discussion for another day.
+
+## Settle for what's good enough
+
+{:.mainidea}
+In life, you don't always get the ideal outcome out of any situation. Trying to make that happen would usually require a disproportional amount of effort, when compared with creating a decent outcome from a situation.
+
+This is especially applicable to maintaining a blog - it's not always necessary to make every post flawless. Settling for good enough saves time and reduces stress. On this note, I would like to state that the CSS here is experimental, so expect things to change.
+
+I hope that this first post will be the first of many to come, and I look forward to watch myself grow.
