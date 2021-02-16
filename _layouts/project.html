@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<h1>{{ page.name }}</h1>
+
+{%- if page.repo -%}
+<div>
+	<a href="https://{{ site.github_username }}.github.io/{{ page.repo }}/">Site</a> | 	<a href="https://github.com/{{ site.github_username }}/{{ page.repo }}">Repository</a>
+</div>
+<br>
+{%- endif -%}
+
+<div>
+	{{ page.content }}
+</div>
