@@ -26,7 +26,8 @@ bundle info <gem-name> | grep Path | cut -d' ' -f 2
 To crop a video:
 
 ```shell
-# crop=in_w:in_h:{x-value of top left}:{y-value of top left}
+# crop={width}:{height}:{x-value of top left}:{y-value of top left}
+# can refer to input height/width as in_h/in_w
 ffmpeg -i input.mp4 -filter:v "crop=in_w:in_h-105:0:105" -c:a copy cropped.mp4
 ```
 
