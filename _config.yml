@@ -30,6 +30,12 @@ author: Tan Wei Seng
 # Google Analytics
 google_analytics: G-9FGMD25455
 
+# collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name
+
 # Build settings
 theme: minima
 plugins:
