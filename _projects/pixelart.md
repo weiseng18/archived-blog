@@ -25,7 +25,7 @@ It includes:
 
 [lodash](https://github.com/lodash/lodash)
 
-* sole purpose is for deep cloning of Javascript 2D arrays
+* sole purpose is for deep cloning of Javascript 2D arrays, and other objects
 
 [dragula](https://github.com/bevacqua/dragula)
 
