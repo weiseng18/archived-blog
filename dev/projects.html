@@ -12,9 +12,11 @@ This page features some of my projects.
 			<div>
 				{{ project.name }}
 			</div>
-			<a href="{{ project.url }}">Write-up</a> |
-			<a href="https://{{ site.github_username }}.github.io/{{ project.repo }}">Site</a> |
-			<a href="https://github.com/{{ site.github_username }}/{{ project.repo }}">Repository</a>
+			<a href="{{ project.url }}">Write-up</a>
+			{%- if project.repo -%}
+				&nbsp;| <a href="https://{{ site.github_username }}.github.io/{{ project.repo }}">Site</a>
+				| <a href="https://github.com/{{ site.github_username }}/{{ project.repo }}">Repository</a>
+			{%- endif -%}
 		</div>
 	{% endfor %}
 </div>
