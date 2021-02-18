@@ -5,10 +5,17 @@ title: Projects
 
 This page features some of my projects.
 
-<ul>
+<div id="container">
 	{% for project in site.projects %}
-		<li>
-			<a href="{{ project.url }}">{{ project.name }}</a>
-		</li>
+		<div>
+			<div>
+				{{ project.name }}
+			</div>
+			<a href="{{ project.url }}">Write-up</a> |
+			<a href="https://{{ site.github_username }}.github.io/{{ project.repo }}">Site</a> |
+			<a href="https://github.com/{{ site.github_username }}/{{ project.repo }}">Repository</a>
+		</div>
 	{% endfor %}
-</ul>
+</div>
+	 
+<link rel="stylesheet" type="text/css" href="/assets/css/projects.css"/>
