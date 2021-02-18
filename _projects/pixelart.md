@@ -1,6 +1,7 @@
 ---
 layout: project
 name: pixelart
+order: 1
 
 repo: pixelart
 ---
