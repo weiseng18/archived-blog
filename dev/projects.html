@@ -6,7 +6,8 @@ title: Projects
 This page features some of my projects.
 
 <div id="container">
-	{% for project in site.projects %}
+	{% assign sorted = site.projects | sort: 'order' %}
+	{% for project in sorted %}
 		<div>
 			<div>
 				{{ project.name }}
