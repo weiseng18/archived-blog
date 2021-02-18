@@ -14,8 +14,8 @@ This page features some of my projects.
 			</div>
 			<a href="{{ project.url }}">Write-up</a>
 			{%- if project.repo -%}
-				&nbsp;| <a href="https://{{ site.github_username }}.github.io/{{ project.repo }}">Site</a>
-				| <a href="https://github.com/{{ site.github_username }}/{{ project.repo }}">Repository</a>
+				&nbsp;| <a href="https://{{ site.github_username }}.github.io/{{ project.repo }}" target="_blank">Site</a>
+				| <a href="https://github.com/{{ site.github_username }}/{{ project.repo }}" target="_blank">Repository</a>
 			{%- endif -%}
 		</div>
 	{% endfor %}
