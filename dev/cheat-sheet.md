@@ -17,7 +17,7 @@ To show information for a gem (includes summary, homepage, local path)
 ```shell
 bundle info <gem-name>
 
-# or if you need the local path only
+# or if you need the local path only (e.g. for scripting)
 bundle info <gem-name> | grep Path | cut -d' ' -f 2
 ```
 
