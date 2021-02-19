@@ -37,3 +37,11 @@ To convert a video to GIF:
 # -r {value} specifies the framerate
 ffmpeg -i input.mp4 -r 15 -vf "split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" output.gif
 ```
+
+## youtube-dl
+
+To download mp3 directly without converting using other tools (such as ffmpeg)
+
+```shell
+youtube-dl --extract-audio --audio-format mp3 <video URL>
+```
